@@ -1,75 +1,53 @@
 # Anton Ochniev
 
-**Game systems · AI-assisted prototyping · Automation**
+**Game design · AI prototyping**
 
-I build game prototypes and AI-assisted tools. I am interested in mechanics, progression, simulation and the way separate rules work together. I also write LitRPG, exploring worlds, abilities and the consequences of their rules.
+I build game prototypes and tools for writing and automation. I enjoy figuring out how a game's rules change the choices a player makes. I also write LitRPG, where I work with abilities, progression and the limits of a fictional world.
 
-Based in **Poznań, Poland**. Open to **junior game / systems design, AI prototyping and AI automation** opportunities.
+Based in **Poznań, Poland**. Looking for **junior game / systems design and AI prototyping** roles. Also open to AI automation work.
 
-[Email](mailto:77ant77@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anton-ochniev/) · [Read Ring of God](https://www.royalroad.com/fiction/153199/ring-of-god)
+[Email](mailto:77ant77@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anton-ochniev/)
 
-## Game design & worldbuilding
+## Games & writing
 
 ### [RINGS — Telegram RPG](https://github.com/Anton-Ognev-AI/rings-telegram-rpg)
 
-A text RPG set in a magical academy. The player works through a ten-stage expedition, chooses how to approach encounters and develops their stats, equipment and magic ring.
+A text RPG set in a magic academy, with ten-stage expeditions and four starting ring styles. I work on the encounter choices, character progression and onboarding.
 
-My work covers the rules, progression, encounter choices, onboarding and AI-assisted implementation. The project includes deterministic outcome resolution and a script for comparing starter builds. Game outcomes are calculated by code, not a runtime LLM.
+Players have three equipment slots and must equip or discard each new item. A balance simulator compares starter builds under different play styles. Outcomes are calculated by game rules, not an AI model.
 
-**Status:** personal MVP in development, with public source and local verification tooling.
+*Personal prototype · TypeScript, Deno, Supabase*
 
-[Game design specification](https://github.com/Anton-Ognev-AI/rings-telegram-rpg/blob/main/docs/specs/2026-07-12-game-design-v1.1.md) · [Balance simulation](https://github.com/Anton-Ognev-AI/rings-telegram-rpg/blob/main/scripts/simulate-starter-builds.ts) · [Architecture](https://github.com/Anton-Ognev-AI/rings-telegram-rpg/blob/main/ARCHITECTURE.md)
+[Design specification](https://github.com/Anton-Ognev-AI/rings-telegram-rpg/blob/main/docs/specs/2026-07-12-game-design-v1.1.md) · [Balance simulator](https://github.com/Anton-Ognev-AI/rings-telegram-rpg/blob/main/scripts/simulate-starter-builds.ts)
 
 ### InsectWorld
 
-My mobile game project, focused on an insect world and its interacting systems. I work on unit behavior, resources, progression and balance, using the prototype to test and revise the rules.
-
-**Status:** personal project in development. Its source and a playable build are not included in this public portfolio.
+An insect-world game prototype where I work on unit behavior, resources and colony progression. I use it to test how changes to individual rules affect the wider simulation. In development; no public build yet.
 
 ### [Ring of God — LitRPG](https://www.royalroad.com/fiction/153199/ring-of-god)
 
-I write under the name **Anton Ognev**. My fiction work includes worldbuilding, ability systems, progression and the consequences of those rules for the characters. The Royal Road edition is a public writing sample alongside my game projects.
+My fiction, published under **Anton Ognev**. I design the world's abilities and progression, then explore what those rules mean for the characters. The Royal Road edition is available as a writing sample.
 
-## AI products & creative tools
+## AI & automation
 
-### [Zadum — writing service](https://zadum-web-production.up.railway.app/)
+### [Book Factory](https://github.com/Anton-Ognev-AI/book-factory-pipeline) & [Zadum](https://zadum-web-production.up.railway.app/)
 
-A Ukrainian-language AI writing service I am building for fiction authors. The goal is to help an author move from a brief through planning, drafting and revision while keeping the story consistent.
+Book Factory is a writing workflow with separate stages for planning, scene drafts, revision and author approval. The public repository includes a React workspace demo with synthetic sample data.
 
-**Status:** in development. The Book Factory repository below is a separate public engineering excerpt, not Zadum's production source.
-
-### [Book Factory Pipeline](https://github.com/Anton-Ognev-AI/book-factory-pipeline)
-
-A TypeScript project for structured long-form writing: planning, scene context, drafting, review and author approval. It combines specialized agents, n8n orchestration, Supabase and a React workspace.
-
-**Public evidence:** source, architecture and a dashboard demo using synthetic data. Manuscripts, private book data and production credentials are excluded.
-
-[View the workspace demo](https://github.com/Anton-Ognev-AI/book-factory-pipeline#demo--the-writer-workspace)
-
-## Automation & engineering
+I am also developing **Zadum**, a Ukrainian-language writing web app. It is a separate work-in-progress application, not the demo in the Book Factory repository.
 
 ### [Cortex](https://github.com/Anton-Ognev-AI/cortex)
 
-A TypeScript task-orchestration hub controlled through Telegram. It turns messages into tracked tasks, records state in an append-only journal and hands execution to a separate companion project, Right Hand. The repository includes tests and documentation of the orchestration boundaries.
+A Telegram-based task orchestrator. It turns messages into tracked tasks and sends work to a separate executor. The public repository contains the orchestrator, its tests and the design notes.
 
 ### [Karaoke Article Pipeline](https://github.com/Anton-Ognev-AI/karaoke-article-pipeline)
 
-A client MVP connecting music data, verified YouTube embeds and AI-assisted writing to a WordPress draft. The workflow checks the output and sends it to Telegram for human review before publication.
+A client MVP built with n8n: an artist name goes in, a WordPress article draft comes out. The workflow checks video embeds and sends the draft to Telegram for human review.
 
-### More projects
-
-| Project | Focus |
-| --- | --- |
-| [n8n workflows as code](https://github.com/Anton-Ognev-AI/n8n-workflows-as-code) | Versioned workflow definitions, repeatable deployment and checks. |
-| [Social automation toolkit](https://github.com/Anton-Ognev-AI/n8n-social-automation-toolkit) | Content workflows, secret scanning and explicit deployment approval. |
-| [Reels growth loop](https://github.com/Anton-Ognev-AI/reels-growth-loop) | Collecting content metrics to inform the next iteration. |
-| [LLM translation pipeline](https://github.com/Anton-Ognev-AI/llm-translation-pipeline) | Literary translation workflow, terminology checks and review roles. |
-| [AI agent evaluation playbook](https://github.com/Anton-Ognev-AI/ai-agent-eval-playbook) | An agent evaluation, sandboxing approach and lessons learned. |
+More: [social automation](https://github.com/Anton-Ognev-AI/n8n-social-automation-toolkit) · [Reels analytics](https://github.com/Anton-Ognev-AI/reels-growth-loop) · [translation tools](https://github.com/Anton-Ognev-AI/llm-translation-pipeline)
 
 ## How I work
 
-I start with the intended behavior, build a small version and check the result. I use AI coding tools for implementation, research and iteration, while defining the requirements and reviewing what is produced. I keep design documents and tests alongside the code where they help make decisions easier to inspect.
+I use AI coding tools to help implement and test ideas. I define the intended behavior, review the result and decide what to change next.
 
-**Tools used across my projects:** TypeScript · Python · Godot · n8n · PostgreSQL / Supabase · React · Telegram Bot API · LLM APIs · REST / webhooks.
-
-My game-development work is currently personal-project experience. I am looking for a team where I can contribute that practical work and develop it further.
+Across my projects: **TypeScript, Python, Godot, n8n, Supabase / PostgreSQL and React**.
